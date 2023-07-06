@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    
+}
+body{  
+position: relative;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 2622px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+.layer{
+position: absolute;
+width: 100%;
+height: 1223px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(270.61deg, rgba(255, 91, 2, 0.204) 0.99%, rgba(77, 163, 179, 0.340792) 48.85%, rgba(0, 194, 255, 0.4) 99.4%);
+mix-blend-mode: normal;
+filter: blur(142.5px);
+}
+.jawad{
+    /* position:absolute; */
+
+
+width: 100%;
+height: 2622px ;
+
+}
+header{
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    
+    padding: 15px 100px ;
+    z-index: 10;
+    /*background:blueviolet*/
+    
+
+}
+header .logo{
+    position: relative ;
+    width: 61.03px;
+    height: 79.43px;
+    left: 20px;
+    top: 0px;
+}
+header .nav{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    color: #000000;
+    left: 1rem;
+    padding: 10px 0px;
+    
+}
+
+header .nav li{
+    list-style: none;
+    margin: 0 10px;
+
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    justify-content: center;
+    position: relative;
+
+    color: #000000;
+
+}
+header .nav li a{
+    color:#000000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 20px;
+    transition: 3ms;
+}
+header .nav li a:hover{
+    color: #ffffff;
+    border: #FFFFFF;
+    background-color: #4A4A4A;
+    background-size: 100px;
+    background-size: 1;
+    border-radius: 7px;
+    transition: 0.58s;
+    
+}
+header .nav li .active{
+    color: #FF5B02;
+}
+header .contact{
+    margin-top: 46px;
+    margin: 10px 10px;
+    color: black;
+    padding: 0px 0px;
+    width: 149px;
+    height: 42px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid #FF5B02;
+    border-radius: 30px;
+}
+header .contact:hover{
+    background-color: #FF5B02;
+    color: #FFFFFF;
+    transition: 0.30s;
+    border-color: #bd4200;
+    
+}
+
+
+.jawad h1{
+position:absolute;
+width: 750px;
+height: 65px;
+left: 104px;
+top: 180px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 135.9%;
+/* or 65px */
+
+letter-spacing: 0.05em;
+
+color: #4A4A4A;
+}
+.jawad h2{
+    position: absolute;
+
+height: 65px;
+left: 360px;
+top: 180px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 135.9%;
+/* or 65px */
+
+letter-spacing: 0.05em;
+
+color: #FF5B02;
+}
+.jawad h3{
+    display: flex;
+position: absolute;
+width: 552px;
+height: 71px;
+left: 104px;
+top: 276px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 135.9%;
+letter-spacing: 0.05em;
+color: #232323;
+}
+
+.hireme{
+    box-sizing: border-box;
+
+position: absolute;
+width: 144px;
+height: 41px;
+left: 118px;
+top: 579px;
+
+background: #FF5B02;
+border: 3px solid #A93E04;
+border-radius: 9px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+transition: 0.3s;
+}
+.hireme:hover{
+    background-color:transparent;
+    color: #000000;
+    border-width:3px ;
+    border-color: #000000;
+}
+
+.jawad .profile .img1{
+    
+    position:absolute;
+    display: flex;
+
+    width: 600px;
+    height: 724.72px;
+    left: 919px;
+    top: -90px;
+    
+
+}
+.jawad .profile .img2{
+    float: left;
+    display: flexbox;
+    size: 100%;
+    position: absolute;
+    width: 307px;
+    height: 528px;
+    left: 994px;
+    top: -18px;
+    border-radius: 0px 0px 146px 134px;
+}
+.part{
+    position: absolute;
+width: 110.38px;
+height: 106.2px;
+left: 104px;
+top: 350px;
+}
+.jawad .part .object2{
+    position: absolute;
+
+left: 190px;
+top: 100px;
+
+}
+.jawad .social{
+    justify-content:space-around ;
+    margin-left: 945px;
+    margin-top: 590px;
+}
+
+
+
+.jawad .social button{
+position: relative;
+margin: 0px 16px;
+width: 58px;
+height: 58px;
+border-radius: 50%;
+border: #FFFFFF;
+padding: 10px 10px;
+justify-content: space-around;
+background-color: #00C2FF; 
+transition: 0.4s;
+
+}
+.social button:hover{
+background: #FF5B02;
+
+}
+.circle1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    left: -754px;
+    top: 500px;
+    border-radius: 50%;
+
+    border: 6px solid #EBEBEB;
+}
+.circle2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 812px;
+    height: 845px;
+    left: -604px;
+    top: 668px;
+    border-radius: 50%;
+
+    border: 6px solid #eeeeee; 
+}
+
+.text{
+    top: 10px;
+    position: absolute;
+}
+.jawad .service .text h1{
+
+width: 287px;
+height: 71px;
+left: 103px;
+top: 790px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 135.9%;
+/* identical to box height, or 71px */
+letter-spacing: 0.05em;
+
+color: #FF5B02;
+}
+.jawad .service .text h2{
+
+width: 373px;
+height: 204px;
+left: 104px;
+top: 876px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 135.9%;
+
+letter-spacing: -0.055em;
+
+color: #000000;
+}
+
+.service3{
+    position: absolute;
+    width: 870px;
+    height: 314px;
+    left: 69px;
+    top: 85px;
+    justify-content:flex-start;
+}
+
+.jawad .service .service3 .uiux{  
+    position: relative;
+    align-items: center;
+    width: 275px;
+    height: 313px;
+    left: 466px;
+    top: 790px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.jawad .service3 .uiimage{
+    align-content: center;  
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 555px;
+    top: 801px;
+
+}
+
+.jawad .service .web{
+    position: absolute;
+    width: 276px;
+    height: 313px;
+    left: 763px;
+    top: 791px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.jawad .service .product{
+    position: absolute;
+    width: 275px;
+    height: 313px;
+    left: 1061px;
+    top: 791px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+ 
+
+
+
+
+
+
+@media(min-width: 1600px)
+{
+  /* body{
+    background-color: #A93E04;
+  } */
+    
+    header{
+        padding: 15px 120px;
+    }
+    
+    
+    .jawad .img1{
+        top: -90px;
+        width: 633px;
+    height: 844.72px;
+        left: 1271px;
+    }
+    .jawad .img2{
+
+        left: 1364px;
+        top: 55px;
+       
+    }
+
+    /* portfoli css start */
+    .jawad h1{
+        top: 184px;
+        font-weight: 900;
+        font-size: 70px;
+        left:140px;
+    }
+    .jawad h2{
+        line-height: 150.9%;
+        font-size: 70px;
+        left:500px;
+        font-weight: 900;
+    }
+    .jawad h3{
+        line-height: 150.9%;
+        font-size: 84px;
+        left:140px;
+        font-weight: 900;
+        width: 740px;
+    }
+    .part{
+    
+        left:140px;
+       
+    }
+
+}
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+/* 
+// XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
